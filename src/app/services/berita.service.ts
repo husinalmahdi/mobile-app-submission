@@ -13,7 +13,7 @@ export class BeritaService {
     public http: HttpClient
   ) { }
 
-
+//tes
   getListNote(): Observable<any[]> {
     return interval(5000)  
       .pipe(
